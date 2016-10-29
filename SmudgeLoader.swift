@@ -17,10 +17,6 @@ public class SmudgeLoader {
         print("SmudgeLoader has been initialised")
     }
     
-    public func doSomething() {
-        print("Yeah, it works")
-    }
-    
     @objc func animateUpload(sender:AnyObject) {
         self.loadingView.rotate360Degrees()
     }
